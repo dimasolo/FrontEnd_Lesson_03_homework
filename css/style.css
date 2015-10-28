@@ -6,7 +6,6 @@ body {
 	margin-right: 155px;
 	border-right: 3px solid  #dbdbdb;
 	border-left: 3px solid  #dbdbdb;
-	
 }
 /*
 HEADER
@@ -16,3 +15,56 @@ HEADER
 	margin-left: 40px;
 	margin-bottom: 45px;
 }
+/*
+HORIZONTAL MENU
+*/
+.menu {
+	margin-left: 40px;
+	width: 965px;
+	height: 40px;
+	background-color: #515151;  
+}
+.menu ul {	
+	height: 40px;
+    font-size: 0; /* убираем горизонтальные отступы */
+    line-height: 0; /* ...и вертикальные в некоторых браузерах */
+    letter-spacing: -1px; /* переубеждаем webkit'ы */
+}   
+.menu ul>li {
+	padding: 12px 25px 12px 25px;
+    font-size: 14px; /* Не забываем восстановить нормальные значения */
+    font-family: 'Open Sans',arial,sans-serif;
+    color: #ffffff;
+    text-shadow: #393838 2px 2px;
+    line-height: normal;
+    letter-spacing: normal;
+    display: inline-block;
+}
+.menu ul>li:hover {
+	background-color: #454545;
+	border-left: 2px solid #838383;
+	border-right: 2px solid #838383;
+}
+/*
+SIDEBAR
+*/
+.sidebar {
+	margin-top: 40px;
+	margin-left: 40px;
+	width: 240px;
+	height: 240px;
+	float: left;
+}
+.sidebar ul>li {
+	padding: 12.5px 0px 12.5px 25px;
+    font-size: 13px;
+    font-family: 'Open Sans',arial,sans-serif;
+    color: #7f7d7d;
+    border: 1px solid #c8c8c8;
+}
+.sidebar ul>li:hover {
+	padding-left: 35px;
+	color: #2c2c2c;
+}
+
+
