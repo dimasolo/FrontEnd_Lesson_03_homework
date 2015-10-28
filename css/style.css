@@ -1,0 +1,18 @@
+/* 
+body style
+*/
+body {
+	margin-left: 155px;
+	margin-right: 155px;
+	border-right: 3px solid  #dbdbdb;
+	border-left: 3px solid  #dbdbdb;
+	
+}
+/*
+HEADER
+*/
+.header {
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-bottom: 45px;
+}
